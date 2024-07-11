@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ParticipantRepository extends JpaRepository<Participant, UUID> {
 
-    List<Participant> findByTripId(UUID tripId);
+  List<Participant> findByTripId(UUID tripId);
 }
